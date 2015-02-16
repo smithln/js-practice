@@ -1,0 +1,19 @@
+{
+  "name": "js-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smithln/js-practice.git"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
+}
