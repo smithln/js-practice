@@ -8,8 +8,8 @@ describe('2. Planets', function(){
   it('Returns an array of planets', function() {
 
     var planets = [
-      'Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter',
-      'Saturn', 'Uranus', 'Neptune', 'Pluto'
+      'Mercury', 'Venus', 'Earth', 'Mars',
+      'Jupiter', 'Saturn', 'Uranus', 'Neptune',
     ];
 
     assert.equal(problem(), planets);

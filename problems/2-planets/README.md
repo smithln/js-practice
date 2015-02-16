@@ -1,6 +1,6 @@
 # 2. Planets
 
-Create a function that returns an `array` of the 9 planet names in our universe. Mars included :space_invader:.  Remember to export your function.
+Create a function that returns an `array` of the 8 planet names in our universe :space_invader:.  Remember to export your function.
 
 **Data**
 
@@ -12,6 +12,5 @@ Create a function that returns an `array` of the 9 planet names in our universe.
 - Saturn
 - Uranus
 - Neptune
-- Pluto
 
 Run `mocha test/2-planets` to test your work.
