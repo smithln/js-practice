@@ -16,6 +16,7 @@
 1. [Hello World](problems/1-hello-world)
 2. [Planets](problems/2-planets)
 3. [Distance between planets](problems/3-planet-distance)
+4. [Sound travel](problems/4-sound-travel)
 
 ## Usage
 
