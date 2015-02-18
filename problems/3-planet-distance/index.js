@@ -10,7 +10,7 @@
 //   'mercury-earth:0.61'
 // ]
 
-var planets = {
+var planets = [
   'mercury',
   'venus',
   'earth',
@@ -19,26 +19,35 @@ var planets = {
   'saturn',
   'uranus',
   'neptune'
-}
+];
 
-var planetRelationships {
+var planetRelationships = {
   //string + '-' + string
 }
 
-var distance {
-  //planetRelationships = number
+function distance(z) {
+  return Math.ceil(z * 92955807.3);
 }
 
 // for 'x' and 'y' identify distance
 // use that distance in function planetDistance z
 // is z a variable? z needs to pull from distance
 
+var obj = {
+  "mercury_venus": 0.33
+};
 
-function planetDistance() {
-  return (Math.ceil(//z * 92955807.3));
+
+function planetDistance(planet1,planet2) {
+  var key = planet1 + '_' + planet2;
+  var distanceBetween = obj[key];
+  return distance(distanceBetween);
 }
 
 module.exports = planetDistance;
+
+
+console.log(planetDistance('mercury','venus'));
 
 // "mercury-venus"= 0.33,
 // "mercury-earth": ,
